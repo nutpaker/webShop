@@ -39,3 +39,28 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+
+require('@fortawesome/fontawesome-free/js/all');
+require('@fortawesome/fontawesome-free/js/v4-shims');
+require('object-fit-images');
+require('gsap/TweenMax');
+require('gsap/ScrollToPlugin');
+require('jarallax/dist/jarallax-video.min');
+require('jarallax');
+require('imagesloaded');
+window.Flickity = require('flickity/dist/flickity.pkgd.min');
+window.PhotoSwipe = require('photoswipe');
+window.PhotoSwipeUI_Default = require('photoswipe/dist/photoswipe-ui-default.min');
+require('jquery-validation');
+require('jquery-countdown');
+window.moment = require('moment');
+require('moment-timezone');
+
+require('hammerjs');
+require('nanoscroller');
+require('soundmanager2');
+require('bootstrap-slider');
+
+require('./web/web');
+require('./web/web-init');

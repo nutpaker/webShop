@@ -191,4 +191,24 @@ mix.sass('resources/sass/backend/assets/structure.scss', 'public/backend/assets/
     */
 
     // Storage
-    .copy('storage/app/public/', 'public/storage/', false);
+    .copy('storage/app/public/', 'public/storage/', false)
+
+
+    /*
+    ========================
+            Assets Theme Web
+    ========================
+    */
+
+    /* Page JS */
+    .js('resources/js/pages/tables_datatables.js', 'public/js/pages/tables_datatables.js')
+    .copy('resources/plugins/', 'public/plugins/', false)
+    .copy('resources/mp3/', 'public/mp3/', false)
+    .copy('resources/php/', 'public/php/', false)
+    .copy('node_modules/ionicons/fonts/*','public/fonts')
+    .copy('node_modules/summernote/dist/font/*','public/fonts')
+    .copy('node_modules/photoswipe/dist/default-skin/*','public/css')
+
+    /* Tools */
+    .browserSync('localhost:8000')
+    .disableNotifications()

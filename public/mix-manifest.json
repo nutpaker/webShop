@@ -89,5 +89,18 @@
     "/backend/plugins/table/datatable/dt-global_style.css": "/backend/plugins/table/datatable/dt-global_style.css",
     "/backend/plugins/table/datatable/dt-global_style-dark.css": "/backend/plugins/table/datatable/dt-global_style-dark.css",
     "/backend/plugins/table/datatable/dt-global_style-light.css": "/backend/plugins/table/datatable/dt-global_style-light.css",
-    "/backend/plugins/tagInput/tags-input.css": "/backend/plugins/tagInput/tags-input.css"
+    "/backend/plugins/tagInput/tags-input.css": "/backend/plugins/tagInput/tags-input.css",
+    "/js/pages/tables_datatables.js": "/js/pages/tables_datatables.js",
+    "/fonts/ionicons.eot": "/fonts/ionicons.eot",
+    "/fonts/ionicons.svg": "/fonts/ionicons.svg",
+    "/fonts/ionicons.ttf": "/fonts/ionicons.ttf",
+    "/fonts/ionicons.woff": "/fonts/ionicons.woff",
+    "/fonts/summernote.eot": "/fonts/summernote.eot",
+    "/fonts/summernote.ttf": "/fonts/summernote.ttf",
+    "/fonts/summernote.woff": "/fonts/summernote.woff",
+    "/fonts/summernote.woff2": "/fonts/summernote.woff2",
+    "/css/default-skin.css": "/css/default-skin.css",
+    "/css/default-skin.png": "/css/default-skin.png",
+    "/css/default-skin.svg": "/css/default-skin.svg",
+    "/css/preloader.gif": "/css/preloader.gif"
 }
