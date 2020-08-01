@@ -1,4 +1,4 @@
-@include('backend.inc.function')
+@include('theme.inc.function')
     <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -15,7 +15,7 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
     <!-- Styles -->
-    @include('backend.inc.styles')
+    @include('theme.inc.styles')
 </head>
 <body {{ ($has_scrollspy) ? scrollspy($scrollspy_offset) : '' }} class=" {{ ($page_name === 'alt_menu') ? 'alt-menu' : '' }} {{ ($page_name === 'error404') ? 'error404 text-center' : '' }} {{ ($page_name === 'error500') ? 'error500 text-center' : '' }} {{ ($page_name === 'error503') ? 'error503 text-center' : '' }} {{ ($page_name === 'maintenence') ? 'maintanence text-center' : '' }}">
 
@@ -25,7 +25,7 @@
         </div></div></div>
 <!--  END LOADER -->
 
-@include('backend.inc.navbar')
+@include('theme.inc.navbar')
 
 <!--  BEGIN MAIN CONTAINER  -->
 <div class="main-container" id="container">
@@ -33,7 +33,7 @@
     <div class="overlay"></div>
     <div class="search-overlay"></div>
 
-@include('backend.inc.sidebar')
+@include('theme.inc.sidebar')
 
 <!--  BEGIN CONTENT PART  -->
     <div id="content" class="main-content">
@@ -41,7 +41,7 @@
         @yield('content')
 
         @if ($page_name != 'account_settings')
-            @include('backend.inc.footer')
+            @include('theme.inc.footer')
         @endif
     </div>
     <!--  END CONTENT PART  -->
@@ -49,7 +49,7 @@
 </div>
 <!-- END MAIN CONTAINER -->
 
-@include('backend.inc.scripts')
+@include('theme.inc.scripts')
 
 </body>
 </html>
