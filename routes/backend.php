@@ -16,8 +16,21 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::group(array('prefix' => 'backend'), function () {
+
+//    Route::get('/', function () {
+//        return route("backend.dashboard");
+//    });
+
     Route::get('/dashboard', function () {
-        return "dashboard";
+
+//        $data = [
+//            'category_name' => 'dashboard',
+//            'page_name' => 'Dashboard',
+//            'has_scrollspy' => 0,
+//            'scrollspy_offset' => '',
+//        ];
+//
+//        return view('dashboard')->with($data);
     })->name('backend.dashboard');
 });
 
