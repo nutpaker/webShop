@@ -17,19 +17,6 @@ mix.options({
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  |--------------------------------------------------------------------------
  | Assets Theme Backend
@@ -222,5 +209,5 @@ mix.sass('resources/sass/theme/assets/structure.scss', 'public/theme/assets/css/
     .copy('node_modules/photoswipe/dist/default-skin/*','public/css')
 
     /* Tools */
-    .browserSync('localhost:8000')
+    .browserSync('localhost:8080')
     .disableNotifications()
