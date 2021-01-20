@@ -22,7 +22,7 @@
         "sass-loader": "^8.0.0",
         "vue-template-compiler": "^2.6.11",
         "flickity": "^2.2.1",
-        "gsap": "^2.1.3",
+        "gsap": "^3.6.0",
         "hammerjs": "^2.0.8",
         "imagesloaded": "^4.1.4",
         "ionicons": "^2.0.1",
